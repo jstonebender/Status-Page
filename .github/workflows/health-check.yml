@@ -51,8 +51,9 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            Teamsboss->https://teamsboss.com
+            Archiver->https://archiver.teamsboss.com
+            Callrouter->https://callrouter.entergrade.com
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
