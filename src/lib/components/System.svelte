@@ -16,7 +16,7 @@
 	let systemMessage = 'System problem';
 	switch (systemState) {
 		case StatusCode.OK:
-			systemMessage = 'All systems operational';
+			systemMessage = 'All Entergrade Systems Operational';
 			break;
 		case StatusCode.ERROR:
 			systemMessage = 'Total Outage';
